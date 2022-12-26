@@ -10,12 +10,9 @@ starnet = StarNet(mode = 'RGB', window_size = 512, stride = 128)
 starnet.load_model('./weights', './history')
 
 
-Folder = "/Users/stephan/Pictures/stack/"
+Folder = "./"
 
-name = "Flaming_1_16"
-#name = "P4c_16"
-#name = "cropped_r_mixed_stacked2_16"
-#name = "Andromeda2"
+name = "rgb_test5"
 
 in_name = name+".tif"
 out_name = name+"_ns.tif"
